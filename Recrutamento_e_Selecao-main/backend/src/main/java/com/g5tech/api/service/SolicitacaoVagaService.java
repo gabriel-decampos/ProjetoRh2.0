@@ -135,7 +135,7 @@ public class SolicitacaoVagaService {
 
     public void updateSolicicatao(SolicitacaoVaga solicitacaoVaga, ProcessoRequestDTO dto) {
 
-        solicitacaoVaga.setQuantidadeVagas(new Integer(dto.getQtdvagas()));
+        solicitacaoVaga.setQuantidadeVagas(Integer.parseInt(dto.getQtdvagas()));
         solicitacaoVaga.setLocal(dto.getLocalVaga());
         solicitacaoVaga.setTipoContratacao(dto.getTipoVaga());
         solicitacaoVaga.setRequisitosDesejaveis(dto.getRequisitos());
