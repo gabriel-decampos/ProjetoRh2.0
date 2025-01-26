@@ -3,7 +3,7 @@ package com.g5tech.api.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  * UsuarioCandidato --- representa um usuario candidato com acesso ao sistema.

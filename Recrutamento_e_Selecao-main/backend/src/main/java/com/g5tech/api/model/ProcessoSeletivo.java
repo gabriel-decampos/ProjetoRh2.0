@@ -2,7 +2,7 @@ package com.g5tech.api.model;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Builder
